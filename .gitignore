@@ -1,0 +1,78 @@
+# win 二进制文件资源目录
+/resource/bin/
+!/resource/bin/bin_environment.txt
+
+# 开发环境
+.idea/
+*.pyc
+*/__pycache__/
+*.env
+
+# 测试和脚本
+/test/
+/release/
+/my_content/
+
+# 媒体文件
+*.srt
+*.mp4
+*.exe
+
+# 应用数据
+/AppData/
+/output/
+/work-dir/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Project specific
+*.log
+cache/
+AppData/cache/
+AppData/logs/
+AppData/models/
+work-dir/
+本地运行.md
